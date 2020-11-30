@@ -1,0 +1,48 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.author {
+    margin-bottom: 4rem;
+}
+
+.author span {
+    font-weight: 500;
+    color: #eab9f5;
+}
+
+.author span:hover {
+    text-decoration: underline;
+}
+
+.illustration {
+    width: 500px;
+}
+
+.btn {
+    padding: 1rem 2.5rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    background: #954ca1;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.btn span, .btn span img {
+    background-color: #954ca1;
+}

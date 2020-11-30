@@ -1,0 +1,31 @@
+.bio-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.bio-paragraph {
+    width: 50%;
+    margin-left: 3rem;
+    line-height: 150%;
+}
+
+.social {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.social a {
+    margin-right: 1rem;
+    color:#eab9f5;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}

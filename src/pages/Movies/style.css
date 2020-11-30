@@ -1,0 +1,29 @@
+.movies {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.return, .page {
+    background-color: #954ca1;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-size: 1.2rem;
+}
+
+.return {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.title-page {
+    font-family: 'Poppins', sans-serif;
+}

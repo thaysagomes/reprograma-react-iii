@@ -1,0 +1,39 @@
+.card {
+    background: white;
+    width: 500px; 
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1.5rem;
+}
+
+.poster {
+    width: 468px;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+}
+
+.movie-title {
+    color: #242424;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info {
+    display: flex;
+    align-items: baseline;
+    background-color: white;
+}
+
+.year {
+    background-color: white;
+    color: #242424;
+    margin-left: 1rem;
+}
+
+.description {
+    background-color: white;
+    color: #242424;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+    line-height: 150%; 
+}
